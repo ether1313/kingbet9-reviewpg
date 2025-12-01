@@ -2,19 +2,19 @@
 
 const SocialMedia = () => {
   const socialLinks = [
-    { name: 'TPA', href: 'https://t.me/tpaaustralia/', icon: '/SocialMediaIcons/ipay9-tpa.png' },
-    { name: 'Facebook', href: 'https://www.facebook.com/IPay9.Entertainment?_rdc=1&_rdr#', icon: '/SocialMediaIcons/ipay9-fb.png' },
-    { name: 'Telegram', href: 'https://t.me/IPAY9', icon: '/SocialMediaIcons/ipay9-tlg.png' },
-    { name: 'WhatsApp', href: 'https://IPAY9.wasap.my', icon: '/SocialMediaIcons/ipay9-ws.png' },
+    { name: 'TPA', href: 'https://t.me/tpaaustralia/', icon: '/SocialMediaIcons/k9-tpa.png' },
+    { name: 'Facebook', href: 'https://www.facebook.com/people/K9-Online-Entertainment-x/61550250416730/', icon: '/SocialMediaIcons/k9-fb.png' },
+    { name: 'Telegram', href: 'https://t.me/KINGBET9AUS', icon: '/SocialMediaIcons/k9-tlg.png' },
+    { name: 'Movie', href: 'https://www.facebook.com/people/Kingbet9-Movie/100095280141507/', icon: '/SocialMediaIcons/k9-mv.png' },
   ];
 
   return (
-    <section className="py-4 sm:py-10 lg:py-16 px-4">
+    <section className="py-4 sm:py-10 lg:py-16 px-4 pb-16">
       <div className="max-w-5xl mx-auto text-center">
 
         {/* ===== Heading ===== */}
-        <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-10 text-[#ecf3ff] font-['Orbitron']">
-          Join the iPay9 Community
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-10 text-[#ecf3ff] font-['Orbitron']">
+          Join the Kingebt9 Community
         </h2>
 
         {/* ===== Social Icons ===== */}
@@ -50,7 +50,7 @@ const SocialMedia = () => {
 
         {/* ===== Subtext ===== */}
         <p className="text-[#ecf3ff] text-sm sm:text-base lg:text-lg px-2 font-['Orbitron'] font-light mt-6">
-          Stay connected with iPay9 Australia's most trusted casino review community
+          Stay connected with Kingbet9 Australia's most trusted casino review community
         </p>
       </div>
 
