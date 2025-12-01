@@ -203,10 +203,10 @@ const ReviewForm = () => {
     setSubmitStatus('')
 
     try {
-      const { error } = await supabase.from('ipay9_review').insert([
+      const { error } = await supabase.from('kingbet9_review').insert([
         {
           name,
-          casino_wallet: 'iPay9',
+          casino_wallet: 'Kingbet9',
           games: selectedGames.join(', '),
           experiences: selectedExperiences.join(', '),
           rating,
@@ -223,7 +223,7 @@ const ReviewForm = () => {
             rating,
             games: selectedGames,
             comment: selectedExperiences.join(', '),
-            wallet: 'iPay9',
+            wallet: 'Kingbet9',
             created_at: new Date().toISOString(),
           },
         })
